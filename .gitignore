@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+
+# Build and framework output
+.next/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+.vercel/
+.output/
+.svelte-kit/
+.nuxt/
+
+# Local deployment output
+.netlify/
+out/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime output
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript and tooling caches
+*.tsbuildinfo
+eslintcache
+.eslintcache
+.npm/
+
+# Test and tool artifacts
+playwright-report/
+test-results/
+.nyc_output/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+~$*
+.idea/
+.history/
+
+# Local VS Code settings that may contain machine-specific paths
+.vscode/*.local.json

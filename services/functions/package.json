@@ -1,0 +1,13 @@
+{
+  "name": "lot-calculator-functions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "migrate": "node migrate.mjs"
+  },
+  "dependencies": {
+    "lot-calculator": "file:../..",
+    "pg": "^8.13.1"
+  }
+}
